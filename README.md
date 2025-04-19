@@ -15,9 +15,9 @@ You can set up multiple backup tasks in the config.
 1. **Download the repository:**
    - [Download ZIP](https://github.com/shatakratu/bash-backup-script/archive/refs/heads/main.zip)
 
-2. **Install jq to parse JSON:**
+2. **Install required tool:**
    ```bash
-   sudo apt install jq
+   sudo apt install jq  
    ```
 
 3. **Edit the config file** (`backup_config.json`):
