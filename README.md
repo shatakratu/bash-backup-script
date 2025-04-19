@@ -7,7 +7,7 @@ A simple Bash script to back up folders using a JSON configuration file.
 
 The script uses `jq` to read the config file, so ensure `jq` is installed.
 
-Each folder is saved as a `.tar.gz` archive with a timestamp. You can configure multiple backup tasks in the JSON file.
+Each folder is saved as a `.tar.gz` archive with a timestamp.
 
 ## Usage
 
