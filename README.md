@@ -14,7 +14,7 @@ Each folder is saved as a `.tar.gz` archive with a timestamp.
 1. **Download the repository:**
    - [Download ZIP](https://github.com/shatakratu/bash-backup-script/archive/refs/heads/main.zip)
 
-2. **Install jq** (`required`):
+2. **Install jq** (`jq` is required to parse JSON):
    ```bash
    sudo apt install jq
    ```
