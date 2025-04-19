@@ -12,8 +12,10 @@ You can set up multiple backup tasks in the config.
 
 ## Usage
 
-1. **Download the repository:**
-   - [Download ZIP](https://github.com/shatakratu/bash-backup-script/archive/refs/heads/main.zip)
+1. **Clone the repository:**
+   ```bash
+   git clone https://github.com/shatakratu/bash-backup-script.git
+   ```
 
 2. **Install required tool:** (`jq to parse JSON`)
    ```bash
@@ -25,7 +27,7 @@ You can set up multiple backup tasks in the config.
    - `"backup_name"`   – name of the archive to be created
 
    - `"source_folder"` – path to the folder you want to back up
-   
+
    - `"target_folder"` – path where the archive will be saved
 
 4. **Make the script executable:**
