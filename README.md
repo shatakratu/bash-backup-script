@@ -22,8 +22,6 @@ You can set up multiple backup tasks in the config.
 
 3. **Edit the configuration file** (`backup_config.json`):
 
-   - `"backup_name"`, `"source_folder"`, `"target_folder"`
-
    - `"backup_name"`   – name of the archive to be created
    - `"source_folder"` – path to the folder you want to back up
    - `"target_folder"` – path where the archive will be saved
