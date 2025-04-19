@@ -35,3 +35,9 @@ You can set up multiple backup tasks in the config.
    ```bash
    ./backup_script.sh
    ```
+
+## Note  
+
+To automate regular backups, you can schedule this script to run periodically using `cron`.  
+ 
+This script **does not remove old backups**, so the `target_folder` can fill up over time.  
