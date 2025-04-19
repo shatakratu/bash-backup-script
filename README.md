@@ -24,6 +24,10 @@ You can set up multiple backup tasks in the config.
 
    - `"backup_name"`, `"source_folder"`, `"target_folder"`
 
+   - `"backup_name"`   – name of the archive to be created
+   - `"source_folder"` – path to the folder you want to back up
+   - `"target_folder"` – path where the archive will be saved
+
 4. **Make the script executable:**
    ```bash
    chmod +x backup_script.sh
