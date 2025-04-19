@@ -20,9 +20,9 @@ Each folder is saved as a `.tar.gz` archive with a timestamp.
    ```
 
 3. **Edit the configuration file** (`backup_config.json`):
-   - `"backup_name"`: Name of the archive to be created.
-   - `"source_folder"`: Path to the folder to back up.
-   - `"target_folder"`: Path where the archive will be saved.
+   - `"backup_name"`   - name of the archive to be created.
+   - `"source_folder"` - path to the folder to back up.
+   - `"target_folder"` - path where the archive will be saved.
 
 4. **Make the script executable:**
    ```bash
