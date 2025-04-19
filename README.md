@@ -2,11 +2,13 @@
 
 ## Description
 
-A simple Bash script for backing up folders based on a JSON configuration file.
+A simple Bash script that backs up folders using a JSON config file. 
 
-The script requires jq to parse the configuration. Please ensure it is installed before running the script.
+Requires jq to parse the config. 
 
-Each specified folder is archived as a .tar.gz file with a timestamp. The script supports multiple backup tasks defined in the config.
+Archives folders as timestamped .tar.gz files. 
+
+Supports multiple backup tasks.
 
 ## Usage
 
