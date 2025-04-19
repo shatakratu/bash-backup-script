@@ -20,7 +20,7 @@ You can set up multiple backup tasks in the config.
    sudo apt install jq
    ```
 
-3. **Edit the config file** (`backup_config.json`):
+3. **Edit the configuration file** (`backup_config.json`):
 
    - `"backup_name"`   – name of the archive to be created
    - `"source_folder"` – path to the folder you want to back up
