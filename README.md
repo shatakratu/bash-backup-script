@@ -22,9 +22,7 @@ You can set up multiple backup tasks in the config.
 
 3. **Edit the configuration file** (`backup_config.json`):
 
-   - `"backup_name"`   – name of the archive to be created
-   - `"source_folder"` – path to the folder you want to back up
-   - `"target_folder"` – path where the archive will be saved
+   - `"backup_name"`, `"source_folder"`, `"target_folder"`
 
 4. **Make the script executable:**
    ```bash
@@ -35,9 +33,3 @@ You can set up multiple backup tasks in the config.
    ```bash
    ./backup_script.sh
    ```
-
-## Note  
-
-To automate regular backups, you can schedule this script to run periodically using `cron`.  
- 
-This script **does not remove old backups**, so the `target_folder` can fill up over time.  
