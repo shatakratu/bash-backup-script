@@ -1,0 +1,14 @@
+{
+    "backups": [
+        {
+            "backup_name"   : "backup_dev",
+            "source_folder" : "/home/user/Dev",
+            "target_folder" : "/home/user/backup"
+        },
+        {
+            "backup_name"   : "backup_deva",
+            "source_folder" : "/home/user/Deva",
+            "target_folder" : "/home/user/backup"
+        }
+    ]
+}
